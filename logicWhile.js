@@ -4,7 +4,7 @@ var control=0;
 
 numeroEntrada = parseInt(prompt("Ingrese el numero que desea calcular"));
 
-while (numeroEntrada<control) {
+while (numeroEntrada>=control) {
     resultado=resultado+control;
     control=control+1;
 
